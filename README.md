@@ -19,11 +19,11 @@
 
 ### Arguments
 1. `passcode`: The access key (must be "bellande_limit_executable_access_key")
-2. `node0`: Starting point coordinates as a Python list (e.g., "[0, 0, 0]")
-3. `node1`: Target point coordinates as a Python list (e.g., "[100, 100, 100]")
-4. `environment`: Environment dimensions as a Python list (e.g., "[1000, 1000, 1000]")
-5. `size`: Step sizes for each dimension as a Python list (e.g., "[10, 10, 10]")
-6. `goal`: Goal point coordinates as a Python list (e.g., "[200, 200, 200]")
+2. `node0`: Starting point coordinates as a list (e.g., "[0, 0, 0]")
+3. `node1`: Target point coordinates as a list (e.g., "[100, 100, 100]")
+4. `environment`: Environment dimensions as a list (e.g., "[1000, 1000, 1000]")
+5. `size`: Step sizes for each dimension as a list (e.g., "[10, 10, 10]")
+6. `goal`: Goal point coordinates as a list (e.g., "[200, 200, 200]")
 7. `obstacles`: List of obstacles with position and dimensions (e.g., '[{"position":[50,50,50],"dimensions":[20,20,20]}]')
 8. `search_radius`: Float value for obstacle detection radius (default: 50.0)
 9. `sample_points`: Integer number of sampling points (default: 20)
