@@ -1,0 +1,1 @@
+./executable/linux/Bellande_Limit "bellande_limit_executable_access_key" "[0,0,0]" "[100,100,100]" "[1000,1000,1000]" "[10,10,10]" "[200,200,200]" '[{"position":[50,50,50],"dimensions":[20,20,20]}]' 50 20
